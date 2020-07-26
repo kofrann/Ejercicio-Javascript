@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link 
+            type="text/css" 
+            rel="stylesheet" 
+            href="ejerciciojs.css" 
+            media="all" />
+            <script type="text/javascript">
+            function calculo() {
+            		var base = document.getElementById("base").value;
+            		var exponente = document.getElementById("exponente").value;
+            		alert(Math.pow(base, exponente));
+            	}	
+
+            </script>
+	
+	</head>
+
+		<body>
+			<div id="caja">
+					<h1>Calcular Potencia</h1>
+					<fieldset><legend>Potencia</legend>
+				<table border="0">
+    
+    <tbody>
+    	
+        <tr>
+            <td>x<input type="text" id="base" name="base"></td>
+            <td><h4 id="elevado">elevado</h4></td>
+            <td>y<input type="text" id="exponente" name="exponente"></td>
+            <td><input type="button" value="Calcular" onclick="calculo();"></td>
+        </tr>
+    </tbody>
+</table>
+</fieldset>
+				
+			</div>
+
+		</body>
+
+</html>
